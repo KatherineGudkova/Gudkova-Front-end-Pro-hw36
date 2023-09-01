@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+
+body{
+    background-color: #a6a6a6;
+    font-family: 'Marmelad', sans-serif;
+}
+
+#formContainer{
+    width: 50%;
+    margin: 10% 25%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 5px 5px 15px 5px #838383;
+}
+
+#formContainer h2,
+#tableContainer h2{
+    text-align: center;
+}
+
+.element-form{
+    text-align: left;
+    line-height: 30px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#firstName,
+#lastName,
+#date,
+#city,
+#address{
+    flex-grow: 1;
+    margin-left: 3%;
+    height: 20px;
+    border-radius: 0%;
+    border: solid 1px #000;
+}
+
+#address{
+    height: 40px;
+}
+
+#sex,
+#lang{
+flex-grow: 1;
+margin-left: 3%;
+}
+
+.sex-box{
+    display: flex;
+}
+
+.lang-box{
+    line-height: 20px;
+}
+
+#okButton{
+    font-family: 'Marmelad', sans-serif;
+    width: 100%;
+    line-height: 30px;
+    font-size: 16px;
+    border-radius: 0%;
+    border: solid 1px #000;
+}
+
+#okButton:active{
+    background-color: #cbcbcb;
+}
+
+#tableContainer{
+    display: none;
+    width: 90%;
+    margin: 10% 5%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 5px 5px 15px 5px #838383;
+}
+
+#dataTable{
+    width: 100%;
+    border: solid 1px #000;
+    border-collapse: collapse;
+}
+
+#dataTable td{
+    padding: 5px;
+    border: solid 1px #000;
+    text-align: center;
+}
+
+#dataTable td:nth-child(odd){
+    background-color: #f4f4f4;
+}
